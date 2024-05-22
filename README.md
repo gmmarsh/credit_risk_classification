@@ -12,8 +12,8 @@ Overview of Process:
 Results:
 The support level for the test data is unbalanced. There was total of 19,384 labels predicted during the test of which 18,765 were healthy loans and 619 were high-risk loans.
 The accuracy score came in at 0.99. The accuracy score of 99% is good but the imbalanced support level detracts from the high accuracy.
-The precision score of .84 for the high-risk loans tells us that 84% of the high-risk loans predicted were actually high-risk loans. Thus, 16% of the healthy loans were miss-classified as high-risk.
-The recall score of .94 for high risk loans tells us that the model predicted 94% of the high risk loans accurately. Thus, 6% of labels were high risk loans that were mis-classified at healthy.
+The precision score of .84 tells us that when the model predicts a high risk loan, it is correct 84% of the time. 
+The recall score of .94 tells us that 94% of the high-risk loans predicted were identified correctly.
 
 Impacts to the Business from the Confusion Matrix:
 107 of the false positives represents potential lost opportunities for the bank because these are the loans that were classified as high-risk when they are actually healthy.
