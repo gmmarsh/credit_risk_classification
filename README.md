@@ -18,7 +18,7 @@ Credit risk classification is an important task in the financial industry. Lende
 The dataset used for this project consists of historical credit data, including various features such as income, loan size, interest rate, debt-to-income, and credit history amongst others. The dataset is preprocessed and split into training and testing sets to train and evaluate the model.
 
 ## Methodology
-The credit risk classification model is developed using machine learning techniques. Logistic regression was used the classify the loan as healthy or high-risk. The model is trained on the training set and evaluated on the testing set using appropriate evaluation metrics.
+The credit risk classification model is developed using machine learning techniques. Logistic regression was used to classify the loan as healthy or high-risk. The model is trained on the training set and evaluated on the testing set using appropriate evaluation metrics.
 
 ## Results
 The performance of the credit risk classification model is assessed based on various evaluation metrics, including accuracy, precision, recall, and F1 score. The results are presented and analyzed to determine the effectiveness of the model in predicting credit risk.
